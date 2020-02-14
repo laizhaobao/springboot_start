@@ -22,7 +22,7 @@ import java.util.List;
  *  MapperScan:扫描当前包下的Mapper,目的是获得dao的实现类
  */
 @SpringBootApplication
-@RestController
+@RestController//表明这是一个rest服务
 @MapperScan("com.dao")
 @ComponentScan("com.service")
 public class BootHelloApplication {
